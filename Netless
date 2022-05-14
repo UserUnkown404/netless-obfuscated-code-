@@ -1,4 +1,10 @@
-
+while true do
+StarterGui:SetCore("BadgeNotificationsActive", false)
+wait(1)
+StarterGui:SetCore("BadgeNotificationsActive", true)
+wait(0.1)
+break
+end
 function Senti_IiiiIiIiIiiIiIIiIIiIi_(a, _)
     if a ~= nil then
         if _ > -2 + (-41) + (2) + (72) + (95) + (-91) + (30) then
